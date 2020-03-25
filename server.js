@@ -57,7 +57,7 @@ const pool     = new Pool({connectionString:connString});
 app.get('/', async (req, res) => {
     try {
         const client = await pool.connect()
-        const result = await client.query('SELECT * FROM tbl_beacon');
+        const result = await client.query('SELECT * FROM tbl_beacon ORDER BY time DESC');
         const results = { 'results': (result) ? result.rows : null};
         //console.log(results);
         res.render('index', results );
