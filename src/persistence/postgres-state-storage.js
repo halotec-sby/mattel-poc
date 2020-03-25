@@ -1,5 +1,5 @@
 const sql = require('sql-template-strings');
-const db = require('./db');
+const db  = require('./db');
 
 const ensureMigrationsTable = db =>
   db.query(

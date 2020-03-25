@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>iBeacon Server</title>
+	</head>
+
+	<body>
+		<pre id="data"></pre>
+
+		<script src="/socket.io/socket.io.js"></script>
+		<script>
+			var socket = io.connect();
+			socket.on('echo', function(msg) {
+				var str = JSON.stringify(msg, null, '\t');
+			       	console.log(str); 
+				document.getElementById("data").innerHTML = str; 
+			});
+		</script>
+	</body>
+</html>

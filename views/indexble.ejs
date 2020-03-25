@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <% include partials/header %> 
+	<body>
+	  <div class="container-scroller"> 
+	    <% include partials/navbarble %>
+	    <div class="container-fluid page-body-wrapper"> 
+	      <% include partials/sidebar %>
+	      <div class="main-panel">
+	        <div class="content-wrapper"> 
+	          <div class="row">
+	            <div class="col-lg-12 grid-margin stretch-card">
+	              <div class="card">
+	                <div class="card-body">
+	                  <h4 class="card-title">Bluetooth LE Data Received</h4>
+	                  <p class="card-description"> iBeacon KBI2019 </p>
+	                  <table class="table table-striped">
+	                    <thead>
+	                      <tr>
+	                      	<th> # </th>
+	                        <th> Reader ID </th>
+	                        <th> BLE ID </th>
+	                        <th> Time </th>
+	                        <th> Name </th>
+	                        <th> Distance </th>
+	                        <th> TX power </th>
+	                        <th> RSSI </th>
+	                      </tr>
+	                    </thead>
+	                    <tbody>
+	                    	<% results.forEach(function(r) { %>
+	                    	<tr>
+	                    		<td><%= r.id %></td>
+	                        	<td><%= r.readerid %></td>
+	                        	<td><%= r.bleid %></td>
+	                        	<td><%= new Date(parseInt(r.time)).toLocaleString() %></td>
+	                        	<td><%= r.name %></td>
+	                        	<td><%= r.distance.toFixed(2) %></td>
+	                        	<td><%= r.txpower %></td>
+	                        	<td><%= r.rssi %></td>
+	                    	</tr>
+    						<% }); %>
+	                    </tbody>
+	                  </table>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	        <% include partials/footer %> 
+	      </div>
+	    </div>
+	  </div>
+	  <!-- custom script -->
+	  <script src="/socket.io/socket.io.js"></script>
+		<script>
+			var socket = io.connect();
+			socket.on('echo', function(msg) {
+				results=msg;
+			});
+		</script>
+	  <!-- plugins:js -->
+	  <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+	  <script src="assets/vendors/js/vendor.bundle.addons.js"></script>
+	  <script src="assets/js/shared/off-canvas.js"></script>
+	  <script src="assets/js/shared/misc.js"></script>
+	</body>
+</html>

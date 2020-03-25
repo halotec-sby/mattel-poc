@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  	<% include ../partials/header.ejs %>
+	<body>
+	<div class="container">
+		<h2>Database Results</h2>
+		<ul> <% results.forEach(function(r) { %>
+        	<li> <%= r.no %> - <%= r.deviceid %> - <%= parseInt(r.time) %> - <%= new Date(parseInt(r.time)*1000).toLocaleString() %> - <%= r.data %>  - <%= r.ns %>-<%= r.latitude %>  -  <%= r.we %>-<%= r.longitude %> </li>
+    	<% }); %>
+		</ul>
+	</div>
+	</body>
+</html>

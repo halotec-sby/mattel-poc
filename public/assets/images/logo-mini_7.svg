@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="26px"
+   height="26px"
+   viewBox="0 0 26 26"
+   version="1.1"
+   id="svg31"
+   sodipodi:docname="logo-mini_7.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata35">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     id="namedview33"
+     showgrid="false"
+     inkscape:zoom="9.0769231"
+     inkscape:cx="13"
+     inkscape:cy="13"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg31" />
+  <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+  <title
+     id="title2">Group</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs17">
+    <linearGradient
+       x1="86.6421569%"
+       y1="56.5831801%"
+       x2="-31.0642397%"
+       y2="31.0642397%"
+       id="linearGradient-1">
+      <stop
+         stop-color="#3DB4FF"
+         offset="0%"
+         id="stop6" />
+      <stop
+         stop-color="#3C50F2"
+         offset="100%"
+         id="stop8" />
+    </linearGradient>
+    <circle
+       id="path-2"
+       cx="13"
+       cy="13"
+       r="13" />
+    <linearGradient
+       x1="53.5667155%"
+       y1="48.4332825%"
+       x2="-52.5667165%"
+       y2="48.4332825%"
+       id="linearGradient-4">
+      <stop
+         stop-color="#54A5F6"
+         offset="0%"
+         id="stop12" />
+      <stop
+         stop-color="#1088EE"
+         offset="100%"
+         id="stop14" />
+    </linearGradient>
+  </defs>
+  <g
+     id="Symbols"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="Modern-dashboard-/-leftmenu"
+       transform="translate(-37.000000, -27.000000)">
+      <g
+         id="Group-2"
+         transform="translate(37.000000, 27.000000)">
+        <g
+           id="Group">
+          <g
+             id="Path-7">
+            <mask
+               id="mask-3"
+               fill="white">
+              <use
+                 xlink:href="#path-2"
+                 id="use19" />
+            </mask>
+            <use
+               id="Mask"
+               fill="url(#linearGradient-1)"
+               fill-rule="nonzero"
+               xlink:href="#path-2" />
+            <polygon
+               fill="url(#linearGradient-4)"
+               fill-rule="nonzero"
+               mask="url(#mask-3)"
+               points="4.45281863 30.3452819 22.1037837 13.7647059 37.2156863 28.6505821"
+               id="polygon23" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="2.9745762"
+     y="18.618645"
+     id="text39"><tspan
+       sodipodi:role="line"
+       id="tspan37"
+       x="2.9745762"
+       y="18.618645"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Forte;-inkscape-font-specification:'Forte, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff">Hl</tspan></text>
+</svg>

@@ -1,0 +1,30 @@
+module.exports = {
+
+    a00 : {name: "a00", x:    0, y:    0, url: "/ble/a00" },
+	a01 : {name: "a01", x: 1000, y: 1100, url: "/ble/a01" },
+	a02 : {name: "a02", x: 1170, y: 2000, url: "/ble/a02" },
+	a03 : {name: "a03", x: 1250, y: 2350, url: "/ble/a03" },
+	a04 : {name: "a04", x: 1500, y: 1280, url: "/ble/a04" },
+	a05 : {name: "a05", x: 1650, y: 2000, url: "/ble/a05" },
+	a06 : {name: "a06", x: 1650, y: 1000, url: "/ble/a06" },
+	a07 : {name: "a07", x: 1700, y: 1350, url: "/ble/a07" },
+	a08 : {name: "a08", x: 2000, y:  950, url: "/ble/a08" },
+	a09 : {name: "a09", x: 2000, y: 1330, url: "/ble/a09" },
+	a10 : {name: "a10", x:    0, y:    0, url: "/ble/a10" },
+	a11 : {name: "a11", x: 2300, y:  950, url: "/ble/a11" },
+	a12 : {name: "a12", x: 2300, y: 1320, url: "/ble/a12" },
+	a13 : {name: "a13", x: 2650, y:  980, url: "/ble/a13" },
+	a14 : {name: "a14", x: 2600, y: 1320, url: "/ble/a14" },
+	a15 : {name: "a15", x: 2450, y: 2520, url: "/ble/a15" },
+	a16 : {name: "a16", x: 2800, y: 1240, url: "/ble/a16" },
+	a17 : {name: "a17", x: 2700, y: 2000, url: "/ble/a17" },
+	a18 : {name: "a18", x: 3300, y: 1100, url: "/ble/a18" },
+	a19 : {name: "a19", x: 3250, y: 1500, url: "/ble/a19" },
+	a20 : {name: "a20", x: 3150, y: 2100, url: "/ble/a20" },
+	a21 : {name: "a21", x:    0, y:    0, url: "/ble/a21" },
+	a22 : {name: "a22", x:    0, y:    0, url: "/ble/a22" },
+	a23 : {name: "a23", x:    0, y:    0, url: "/ble/a23" },
+	a24 : {name: "a24", x:    0, y:    0, url: "/ble/a24" },
+	a25 : {name: "a25", x:    0, y:    0, url: "/ble/a25" }
+
+}

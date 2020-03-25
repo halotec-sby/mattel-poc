@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="157px"
+   height="21px"
+   viewBox="0 0 157 21"
+   version="1.1"
+   id="svg17"
+   sodipodi:docname="logo_10.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata23">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs21" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     id="namedview19"
+     showgrid="false"
+     inkscape:zoom="4.16"
+     inkscape:cx="78.5"
+     inkscape:cy="10.5"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg17" />
+  <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+  <title
+     id="title2">Group</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="Symbols"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="Modern-dashboard-/-leftmenu"
+       transform="translate(-39.000000, -28.000000)">
+      <g
+         id="Group"
+         transform="translate(39.000000, 28.000000)">
+        <g
+           id="Group-2">
+          <path
+             d="M0,0 L10.5,0 C16.2989899,-1.06525716e-15 21,4.70101013 21,10.5 L21,10.5 C21,16.2989899 16.2989899,21 10.5,21 L0,21 L0,0 Z"
+             id="Rectangle"
+             fill="#00E196" />
+          <g
+             id="Group-10"
+             transform="translate(6.500000, 6.000000) scale(-1, 1) translate(-6.500000, -6.000000) ">
+            <rect
+               id="rect7"
+               fill="#0400AC"
+               transform="translate(3.000000, 3.000000) scale(-1, 1) translate(-3.000000, -3.000000) "
+               x="0"
+               y="0"
+               width="6"
+               height="6" />
+            <rect
+               id="Rectangle-Copy-58"
+               fill="#0400AC"
+               transform="translate(9.500000, 9.000000) scale(-1, 1) translate(-9.500000, -9.000000) "
+               x="6"
+               y="6"
+               width="7"
+               height="6" />
+            <rect
+               id="Rectangle-Copy-59"
+               fill="#FF0283"
+               transform="translate(9.500000, 3.000000) scale(-1, 1) translate(-9.500000, -3.000000) "
+               x="6"
+               y="0"
+               width="7"
+               height="6" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="41.10577"
+     y="16.913462"
+     id="text27"><tspan
+       sodipodi:role="line"
+       id="tspan25"
+       x="41.10577"
+       y="16.913462"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Sitka Small';-inkscape-font-specification:'Sitka Small, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Halotec</tspan></text>
+</svg>

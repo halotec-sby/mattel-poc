@@ -1,0 +1,36 @@
+<div class="main-panel">
+  <div class="content-wrapper"> 
+    <div class="row">
+      <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Sigfox Data Received</h4>
+            <p class="card-description"> Add class <code>.table-striped</code> </p>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th> DeviceId </th>
+                  <th> Time </th>
+                  <th> Sensor Value </th>
+                  <th> Longitude </th>
+                  <th> Latitude </th>
+                </tr>
+              </thead>
+              <tbody>
+                <% for(var i =0; i < results.rows.length; i++) { %>
+                <form class="tr" action="handleForm">
+                  <input type="text" id="id" name="deviceId" class="td" readonly value= <%= results.rows[i].deviceid %>>
+                  <input type="text" name="Time" class="td" value= <%= new Date(results.rows[i].time) %> >
+                  <input type="integer" name="seqNumber" class="td" value= <%= results.rows[i].seqnumber %>>
+                  <input type="float" name="Longitude" class="td" value= <%= results.rows[i].longitude %>>
+                  <input type="float" name="Latitude" class="td" value= <%= results.rows[i].latitude %>>
+                <% } %>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <% include footer %> 
+</div>

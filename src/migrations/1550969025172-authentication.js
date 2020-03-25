@@ -18,7 +18,6 @@ module.exports.up = async function(next) {
 
   await client.query(`
   CREATE INDEX users_email on users (email);
-
   CREATE INDEX sessions_user on sessions (user_id);
   `);
 

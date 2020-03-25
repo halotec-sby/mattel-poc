@@ -1,10 +1,7 @@
-const path = require('path');
+const path    = require('path');
 const migrate = require('migrate');
-
 const stateStore = require('../src/persistence/postgres-state-storage');
-
 const migrationsDirectory = path.resolve(__dirname, '../src/migrations');
-
 const [command] = process.argv.slice(2);
 
 new Promise((resolve, reject) => {
@@ -14,14 +11,8 @@ new Promise((resolve, reject) => {
       migrationsDirectory
     },
     (err, set) => {
-      if (err) {
-        reject(err);
-      }
-
-      if (typeof set[command] !== 'function') {
-        reject(new Error('Command is not a function'));
-      }
-
+      if (err) reject(err);
+      if (typeof set[command] !== 'function') reject(new Error('Command is not a function'));
       set[command](err => {
         if (err) reject(err);
         resolve();

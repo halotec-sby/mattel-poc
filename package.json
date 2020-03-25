@@ -1,8 +1,8 @@
 {
-  "name": "express-postgres-starter",
+  "name": "mattel-poc",
   "private": true,
   "version": "1.0.0",
-  "description": "Starter project using Express and Postgres",
+  "description": "Mattel eBeacon Server",
   "main": "config.js",
   "scripts": {
     "test": "xo",
@@ -17,17 +17,26 @@
     "express",
     "postgres"
   ],
-  "author": "Hugo Di Francesco",
+  "author": "Prio Halotec",
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
     "client-sessions": "^0.8.0",
-    "express": "^4.16.4",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
     "helmet": "^3.16.0",
+    "http": "0.0.1-security",
+    "ip": "^1.1.5",
     "migrate": "^1.6.2",
-    "morgan": "^1.9.1",
-    "pg": "^7.9.0",
+    "morgan": "^1.10.0",
+    "nib": "^1.1.2",
+    "path": "^0.12.7",
+    "pg": "^7.18.2",
+    "socket.io": "^2.3.0",
     "sql-template-strings": "^2.2.2",
+    "stylus": "^0.54.7",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
@@ -40,10 +49,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HugoDF/express-postgres-starter.git"
+    "url": "git+https://github.com/halotec-sby/mattel-poc.git"
   },
   "bugs": {
-    "url": "https://github.com/HugoDF/express-postgres-starter/issues"
+    "url": "https://github.com/halotec-sby/mattel-poc/issues"
   },
-  "homepage": "https://github.com/HugoDF/express-postgres-starter#readme"
+  "homepage": "https://github.com/halotec-sby/mattel-poc#readme"
 }
